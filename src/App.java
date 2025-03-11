@@ -28,6 +28,8 @@ public class App {
         / (Math.pow(1+monthlyInterest, numberOfPayment) - 1);
 
 
+        // format number to currencyType
+
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
         System.out.println("Mortgage: " + mortgageFormatted);
     }
