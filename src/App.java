@@ -9,7 +9,7 @@ public class App {
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
 
-
+        // input module
         Scanner scanner = new Scanner(System.in);
         
         System.out.print("Principal: ");
